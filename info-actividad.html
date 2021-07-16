@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tirolesa | Ecoturismo</title>
+    <link rel="icon" href="./img/icon.svg" type="image/svg+xml" sizes="any">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar navbar-expand-xl navbar-dark bg-color-nav py-4">
+        <div class="container ">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/icon.svg" alt="logotipo" width="45" class="img-fluid"> Lorem ipsum
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto m-auto mb-2* mb-lg-0*">
+                    <li class="nav-item borderFade">
+                        <a class="nav-link fs-5 mx-1" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item fs-5 dropdown mx-1 borderFade">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Acerca de
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item fs-5" href="#">Nosotros</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item fs-5" href="#">Beneficios Ecocómicos y Ambientales</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item fs-5" href="#">Beneficios Sociales</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item fs-5 dropdown mx-1 borderFade">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item fs-5" aria-current="page" href="./actividades.html">Actividades</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item fs-5" href="./cabanas.html">Cabañas</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item fs-5" href="./restaurant.html">Platillos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-1 borderFade">
+                        <a class="nav-link fs-5" href="./preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="nav-item mx-1 borderFade">
+                        <a class="nav-link fs-5" href="#">Transporte</a>
+                    </li>
+                    <li class="nav-item mx-1 borderFade">
+                        <a class="nav-link fs-5" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="nav-link text-light px-1" href="#">
+                        <i class="bi bi-whatsapp h4"></i> 951 111 11 11
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- /Navbar -->
+
+    <main class="bg-light*">
+        <!-- Banner -->
+        <section class="container-fluid d-flex align-items-center bg-cover-act-info height-cover m-0 p-0">
+            <div class="container-fluid text-light bg-opacity m-auto rounded mx-md-5*">
+                <div class="m-3 m-md-5 px-3 px-md-4 py-2">
+                    <h1 class="display-1 text-center fw-bold color-text-green">Tirolesa</h1>
+                </div>
+            </div>
+        </section>
+        <!-- /Banner -->
+
+        <!-- Breadcumb -->
+        <nav aria-label="breadcrumb" class="container mt-4">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="./actividades.html">Actividades</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Tirolesa</li>
+            </ol>
+        </nav>
+        <!-- /Breadcumb -->
+
+        <!-- Carrusel -->
+        <section class="container pb-5">
+
+            <div class="row mt-4 align-items-center* justify-content-center*">
+                <div class="col-xl-8 px-3 border* border-danger* my-auto*">
+
+                    <div id="carouselExampleIndicators" class="carousel slide shadow" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="./img/zipline.jpg" class="d-block w-100 rounded"
+                                    alt="Imagen un chico en una tirolesa">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/zipline-2.jpg" class="d-block w-100 rounded"
+                                    alt="Imagen un chico en una tirolesa">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/zipline-3.jpg" class="d-block w-100 rounded"
+                                    alt="Imagen un chico en una tirolesa">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/zipline-4.jpg" class="d-block w-100 rounded"
+                                    alt="Imagen un chico en una tirolesa">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+
+                    <div class="mt-5 d-xl-none">
+                        <p class="fs-2 color-text border-color">Descripción de la actividad</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim incidunt
+                            consequatur labore dolores, veniam et, itaque perferendis nihil eos ipsam voluptate cum sit.
+                            Ad, odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sapiente.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xl-4 mt-5 mt-xl-0  p-3 bg-color-white rounded shadow border-color border* border-success*">
+                    <div class="mt-0 mt-xl-0 mb-4">
+                        <p class="fs-1 pb-0 mb-0">$ 400.00</p>
+                        <p class="text-muted">Precio por persona.</p>
+                    </div>
+                    <form action="#">
+                        <div class="mb-4">
+                            <label for="entrada" class="form-label">Seleccione la fecha de asistencia</label>
+                            <input type="date" id="entrada" class="form-control form-control-lg" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="numeroPersonaAdicional" class="form-label">Indique el número de personas</label>
+                            <input type="number" id="numeroPersonaAdicional" class="form-control form-control-lg"
+                                min="1" max="5" required>
+                        </div>
+                        <div class="mb-4 text-end color-text">
+                            <span class="fs-4">Total:</span> <span class="fs-4">$800.00</span>
+                        </div>
+                        <div class="mb-4 d-grid">
+                            <button type="submit" class="btn btn-lg btn-solid">Reserva ahora</button>
+                        </div>
+                        <div class="align-middle text-muted d-none*">
+                            <span>Aceptamos
+                                <img src="./img/paypal.svg" alt="Paypal" height="50">
+                                <img src="./img/visa.svg" alt="Visa" width="30">
+                                <img src="./img/mastercard.svg" alt="Mastercard" width="30">
+                            </span>
+                        </div>
+
+                        <div class="text-muted d-none">
+                            <p class="pb-0 mb-0">También puedes reservar tu cabaña mediante <a href="#">Whatsapp</a></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <!-- Descripción -->
+            <div class="row mt-4 align-items-center* justify-content-center* d-none d-xl-block">
+                <div class="col-md-8 px-3 border* border-danger*">
+                    <div class="mt-5*">
+                        <p class="fs-2 color-text border-color">Descripción de la actividad</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim incidunt
+                            consequatur labore dolores, veniam et, itaque perferendis nihil eos ipsam voluptate cum sit.
+                            Ad, odio?Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sapiente.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /Descripción -->
+
+        </section>
+        <!-- /Carrusel -->
+
+        <!-- Más Detalles -->
+        <section class="container-fluid bg-color-white bg-light*">
+            <div class="container pb-5">
+                <div class="bd-example bg-color-white">
+                    <nav class="bg-color-white">
+                        <div class="nav nav-tabs mb-3 bg-light" id="nav-tab" role="tablist">
+                            <button class="nav-link active fs-4 color-text" id="nav-1-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-1" type="button" role="tab" aria-controls="nav-1"
+                                aria-selected="true">¿Qué incluye el servicio?</button>
+
+                            <button class="nav-link fs-4 color-text" id="nav-2-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-2" type="button" role="tab" aria-controls="nav-2"
+                                aria-selected="false">Horarios</button>
+
+                            <!--<button class="nav-link fs-4 color-text" id="nav-3-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-3" type="button" role="tab" aria-controls="nav-3"
+                                aria-selected="false">Seguridad</button>
+
+                            <button class="nav-link fs-4 color-text" id="nav-4-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-4" type="button" role="tab" aria-controls="nav-4"
+                                aria-selected="false">Consideraciones</button>-->
+                        </div>
+                    </nav>
+                    <div class="tab-content bg-color-white" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
+                            <div class="row p-2">
+                                <div class="col">
+                                    <ul class="item">
+                                        <li class="lead fs-5">2 subidas</li>
+                                        <li class="lead fs-5">1 equipo de arnés</li>                                        
+                                        <li class="lead fs-5">1 casco</li>
+                                        <li class="lead fs-5">1 par de guantes</li>
+                                        <li class="lead fs-5">Unas gafas</li>
+                                    </ul>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
+                            <div class="row p-2">
+                                <div class="col">
+                                    <ul class="item">
+                                        <li class="fs-5">Lunes a viernes: <span class="lead">2:00 p.m. - 5:00 p.m.</span></li>
+                                        <li class="fs-5">Sábados: <span class="lead">1:00 p.m. - 4:00 p.m.</span></li>
+                                        <li class="fs-5">Domingos: <span class="lead">10:am - 1:00 p.m.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3">
+                            <div class="row p-2">
+                                <div class="col">
+                                    <ul class="item">
+                                        <li class="lead fs-5">No se permite la entrada de mascotas</li>
+                                        <li class="lead fs-5">No se permite fumar</li>
+                                        <li class="lead fs-5">No hay cobertura móvil</li>
+                                        <li class="lead fs-5">No se permite la entrada con bebidas alcoholicas</li>
+                                        <li class="lead fs-5">No se permite realizar fogatas fuera de la cabaña</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4">
+                            <div class="row p-2">
+                                <div class="col">
+                                    <ul class="item">
+                                        <li class="lead fs-5">Toallas</li>
+                                        <li class="lead fs-5">Sábanas</li>
+                                        <li class="lead fs-5">Cobijas</li>
+                                        <li class="lead fs-5">Almohadas</li>
+                                        <li class="lead fs-5">Shampoo</li>
+                                        <li class="lead fs-5">Jabón de tocador</li>
+                                    </ul>
+                                </div>
+                                <div class="col">
+                                    <ul class="item">
+                                        <li class="lead fs-5">Gel antibacterial</li>
+                                        <li class="lead fs-5">Cafetera</li>
+                                        <li class="lead fs-5">Café</li>
+                                        <li class="lead fs-5">Leña</li>
+                                        <li class="lead fs-5">Extinguidor</li>
+                                        <li class="lead fs-5">Botiquín de primeros auxilios</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Más Detalles -->
+
+        <!-- Opinión y Comentarios -->
+        <section class="container-fluid bg-light">
+            <div class="container py-5">
+                <p class="fs-2 color-text border-color">Comentarios y opiniones</p>
+                <div class="row mt-2">
+                    <div class="col-md-4 pt-4 pt-md-0">
+                        <div class="rounded border-color-corner text-center p-3">
+                            <span class="display-3">5</span> <span class="lead">de</span> <span
+                                class="display-6">5</span>
+                            <i class="bi bi-star-fill text-warning h5"></i>
+                            <p>15 comentarios</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 pt-4 pt-md-0">
+                        <p class="fs-5">Compartenos tu
+                            experiencia</p>
+                        <form action="#" class="mb-5 mb-md-0">
+                            <div class="mb-3">
+                                <label for="ranking" class="form-label">¿Qué te pareció nuestro servicio?</label>
+                                <span class="text-warning h5">
+                                    <i class="bi bi-star" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-trigger="hover focus" data-bs-placement="top"
+                                        data-bs-content="Pésimo servicio"></i>
+                                    <i class="bi bi-star" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-trigger="hover focus" data-bs-placement="top"
+                                        data-bs-content="Mal servicio"></i>
+                                    <i class="bi bi-star" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-trigger="hover focus" data-bs-placement="top"
+                                        data-bs-content="Servicio Regular"></i>
+                                    <i class="bi bi-star" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-trigger="hover focus" data-bs-placement="top"
+                                        data-bs-content="Buen servicio"></i>
+                                    <i class="bi bi-star" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-trigger="hover focus" data-bs-placement="top"
+                                        data-bs-content="Excelente servicio"></i>
+                                </span>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" name="comment" id="comment" rows="4" required
+                                    placeholder="Escribe tu comentario aquí"></textarea>
+                            </div>
+                            <div class="text-end">
+                                <button type="submit" class="btn btn-solid">Publicar</button>
+                            </div>
+                        </form>
+
+                        <span class="fs-5">Comentarios recientes</span>
+                        <span class="btn-group mx-2" role="group">
+                            <button id="btnGroupDrop2" type="button" class="btn btn-out dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Mostrar
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                                <li>
+                                    <a href="#" class="dropdown-item">Todos los comentarios</a>
+                                    <a href="#" class="dropdown-item">Comentarios recientes</a>
+                                </li>
+                            </ul>
+                        </span>
+
+                        <div class="px-3 my-4">
+                            <div class="row border rounded">
+                                <div class="col-3 text-center my-auto py-2">
+                                    <img src="./img/persona-1.png" alt="Imagen de perfil"
+                                        class="rounded-circle img-fluid" width="80">
+                                    <p class="fw-bold pt-2 pb-0 mb-0">Luis Caballero</p>
+                                </div>
+
+                                <div class="col-9 py-2 my-auto">
+                                    <p class="fw-bold pb-1 mb-0">Excelente servicio
+                                        <span class="text-warning h6">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-2 my-auto text-center">
+                                            <img src="./img/comillas.svg" alt="comillas" width="50" class="img-fluid">
+                                        </div>
+                                        <div class="col-10 my-auto">
+                                            <p class="pb-0 mb-0 lead fs-6">Una increíble experiencia, el personal
+                                                siempre
+                                                fue muy atento.</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted small text-end pb-0 mb-0">Hace 3 semanas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="px-3 my-4">
+                            <div class="row border rounded">
+                                <div class="col-3 text-center my-auto py-2">
+                                    <img src="./img/persona-2.png" alt="Imagen de perfil"
+                                        class="rounded-circle img-fluid" width="80">
+                                    <p class="fw-bold pt-2 pb-0 mb-0">Karla Madhí</p>
+                                </div>
+
+                                <div class="col-9 py-2 my-auto">
+                                    <p class="fw-bold pb-1 mb-0">Excelente servicio
+                                        <span class="text-warning h6">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-2 my-auto text-center">
+                                            <img src="./img/comillas.svg" alt="comillas" width="50" class="img-fluid">
+                                        </div>
+                                        <div class="col-10 my-auto">
+                                            <p class="pb-0 mb-0 lead fs-6">Me pareció un lugar increíble, el servicio lo
+                                                recomiendo ampliamente.</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted small text-end pb-0 mb-0">Hace 3 semanas</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="px-3 my-4">
+                            <div class="row border rounded">
+                                <div class="col-3 text-center my-auto py-2">
+                                    <img src="./img/persona-3.png" alt="Imagen de perfil"
+                                        class="rounded-circle img-fluid" width="80">
+                                    <p class="fw-bold pt-2 pb-0 mb-0">Ulises García</p>
+                                </div>
+
+                                <div class="col-9 py-2 my-auto">
+                                    <p class="fw-bold pb-1 mb-0">Excelente servicio
+                                        <span class="text-warning h6">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </span>
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-2 my-auto text-center">
+                                            <img src="./img/comillas.svg" alt="comillas" width="50" class="img-fluid">
+                                        </div>
+                                        <div class="col-10 my-auto">
+                                            <p class="pb-0 mb-0 lead fs-6">Los recorridos a los que nos llevaron fueron
+                                                maravillosos.</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted small text-end pb-0 mb-0">Hace 3 semanas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Opinión y Comentarios -->
+
+        <!-- Otras Cabañas -->
+        <section class="container py-5 bg-color-white bg-light*">
+            <p class="fs-2 color-text border-color">Otras actividades</p>
+            <div class="row align-items-center justify-content-center">
+                <article class="card my-3 mx-3 p-0 col-md-4 shadow">
+                    <img src="./img/rappel.jpg" class="card-img-top" alt="Imagen de una Cabaña">
+                    <div class="card-body">
+                        <h2 class="card-title text-title h4">Rappel</h2>
+                        <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </span>
+                        <span class="text-muted small">15 opiniones</span>
+                        <hr>
+                        <p class="card-text text-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Animi harum ullam tempore alias quo porro.</p>
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-auto my-auto">
+                                <p class="fs-4 p-0 m-0">$ 400.00</p>
+                            </div>
+                            <div class="col-auto my-auto">
+                                <a href="./info-cabana.html" class="btn btn-out">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card my-3 mx-3 p-0 col-md-4 shadow">
+                    <img src="./img/aerial.jpg" class="card-img-top" alt="Imagen de una Cabaña">
+                    <div class="card-body">
+                        <h2 class="card-title text-title h4">Juegos aéreos</h2>
+                        <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </span>
+                        <span class="text-muted small">15 opiniones</span>
+                        <hr>
+                        <p class="card-text text-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Animi harum ullam tempore alias quo porro.</p>
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-auto my-auto">
+                                <p class="fs-4 p-0 m-0">$ 400.00</p>
+                            </div>
+                            <div class="col-auto my-auto">
+                                <a href="#" class="btn btn-out">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card my-3 mx-3 p-0 col-md-4 shadow">
+                    <img src="./img/cycling.jpg" class="card-img-top" alt="Imagen de una Cabaña">
+                    <div class="card-body">
+                        <h2 class="card-title text-title h4">Ciclismo</h2>
+                        <span class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </span>
+                        <span class="text-muted small">15 opiniones</span>
+                        <hr>
+                        <p class="card-text text-description">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Animi harum ullam tempore alias quo porro.</p>
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-auto my-auto">
+                                <p class="fs-4 p-0 m-0">$ 400.00</p>
+                            </div>
+                            <div class="col-auto my-auto">
+                                <a href="#" class="btn btn-out">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Directorio -->
+    <footer class="container-fluid bg-color-ft text-light">
+        <div class="container py-5">
+            <header>
+                <h1 class="border-color pb-1">Directorio</h1>
+            </header>
+
+            <div class="row mt-5 justify-content-center">
+                <div class="col-md-3 pb-4 pb-md-0">
+                    <p><i class="bi bi-telephone"></i> Teléfono <br>
+                        <a href="tel:951 553 6075" class="link-light">951 000 00 00</a>
+                    </p>
+                </div>
+                <div class="col-md-3 pb-4 pb-md-0">
+                    <p><i class="bi bi-envelope"></i> Correo <br>
+                        <a href="mailto:loremipsum@gmail.com" class="link-light text-break">loremipsum@lorem.com</a>
+                    </p>
+                </div>
+                <div class="col-md-3 pb-4 pb-md-0">
+                    <p><i class="bi bi-geo-alt"></i> Dirección de oficinas<br>
+                        <a href="https://goo.gl/maps/r2pz43m8m4FcKrfR7" class="link-light">C. 44 Ipsum, 00011 Lore,
+                            Lorem Dolo</a>
+                    </p>
+                </div>
+                <div class="col-md-3 pb-4 pb-md-0">
+                    <p>Redes Sociales</p>
+                    <a href="#" class="mx-2 text-light"><i class="bi bi-facebook h4"></i></a>
+                    <a href="#" class="mx-2 text-light"><i class="bi bi-instagram h4"></i></a>
+                    <a href="#" class="mx-2 text-light"><i class="bi bi-twitter h4"></i></a>
+                    <a href="#" class="mx-2 text-light"><i class="bi bi-youtube h4"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Directorio -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+</body>
+
+</html>
